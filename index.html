@@ -15,6 +15,8 @@
     <!-- Your styles should be called here -->
     <link href="style.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,10 +28,9 @@
   <body>
     <!-- YOUR CONTENT GOES HERE -->
     <div class="container">
-      <h1>How many milligrams of caffeine you drink per day</h1>
-      <p>The following calculator will help you estimate how many milligrams of caffeine you drink per day.</p>
-
-      <p>This is a loose estimate and is designed to show a loose impact rather than an exact change.</p>
+      <h1>Caffeine Addiction</h1>
+      <p>This calculator will help you estimate how many milligrams of caffeine you drink per day.</p>
+      <br>
       <table>
         <tr>
           <th>Drink</th>
@@ -86,13 +87,15 @@
         </tr>
       </table>
 
-      <br>
-
-      <button class="calculate">Find Total</button>
+      <br><br>
+      <div class="buttonStyle">
+        <button class="calculate">Find Total</button>
+      </div>
+      <br><br>
 
       <div id="totalAll" class="pre_total">
-        <h2>Total milligrams of caffeine</h2>
-        <span></span>
+        <h2>Total milligrams of caffeine:<span class="endMg"></span></h2>
+
       </div>
 
       <!-- <div id="post_total" class="total">

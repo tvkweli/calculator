@@ -19,6 +19,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
   font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -28,13 +29,58 @@ html, body {
 }
 
 td, th {
-  width: 20%;
+  width: 30%;
   display: inline-block;
+  background-color: #33FCFF;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
+
+td {
+  height: 50px;
+  padding: 10px;
+}
+
+th {
+  height: 40px;
+}
+
+button {
+  background-color: #22B6FA;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* .buttonStyle {
+  margin: auto;
+  width: 40%;
+} */
 
 input {
   max-width: 100%;
   display: block;
+}
+
+h2 {
+  font-size: 16px;
+  background-color: #33FCFF;
+  width: 90%;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.endMg {
+  margin: 10px;
+}
+
+.item {}
+
+.qty {
+  margin-top: 5px;
 }
 
 /* Tablet/Desktop overrides */
