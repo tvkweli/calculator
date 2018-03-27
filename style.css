@@ -43,6 +43,7 @@ td {
 
 th {
   height: 40px;
+  font-style: bold;
 }
 
 button {
@@ -77,8 +78,6 @@ h2 {
   margin: 10px;
 }
 
-.item {}
-
 .qty {
   margin-top: 5px;
 }
@@ -91,8 +90,24 @@ h2 {
     width: auto;
     display: table-cell;
   }
+  .total {
+    width: 35%;
+  }
+  button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    width: 67%;
+  }
 }
 
 @media(min-width: 729px) {
+  h2 {
+    width: 52%;
+    margin-bottom: 50px;
+  }
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
