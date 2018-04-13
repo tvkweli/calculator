@@ -82,6 +82,19 @@ h2 {
   margin-top: 5px;
 }
 
+.text {
+  max-width: 90%;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 5px;
+  /* max-width: 980px; */
+  /* margin: 0 auto; */
+  padding: 1em;
+}
+
+h1 {
+  margin: 15px;
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
